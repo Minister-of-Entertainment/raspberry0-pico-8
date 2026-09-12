@@ -14,6 +14,7 @@ echo "================================================="
 # 1. ACTUALIZACIÓN E INSTALACIÓN DE DEPENDENCIAS
 echo "[+] 1/8. Instalando librerías y paquetes requeridos..."
 apt-get update -y
+apt-get install -y python3-lgpio
 apt-get install -y python3-pip python3-pil python3-gpiozero python3-uinput \
                    python3-lgpio lgpio network-manager fonts-dejavu-core gcc make xinit xserver-xorg-video-fbdev
 
